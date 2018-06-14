@@ -32,14 +32,14 @@ public class InputNIFGenerator {
 	public static void main(String[] args) {
 		CSVReader reader;
 		try {
-			reader = new CSVReader(new FileReader("C:\\Users\\Nikit\\Desktop\\okeds\\input.csv"));
+			reader = new CSVReader(new FileReader("C:\\Users\\Nikit\\Google Drive\\MS (Study folder)\\UPB\\DICE-Group\\Gerbil\\okeds\\input.csv"));
 			String[] line;
 			int i = 1;
 			String tempUri, tempText;
 			File yourFile;
 
 			while ((line = reader.readNext()) != null) {
-				yourFile = new File("C:\\Users\\Nikit\\Desktop\\okeds\\output\\output_" + i++ + ".ttl");
+				yourFile = new File("C:\\Users\\Nikit\\Google Drive\\MS (Study folder)\\UPB\\DICE-Group\\Gerbil\\okeds\\output\\output_" + i++ + ".ttl");
 				yourFile.createNewFile();
 				// write to file
 				tempUri = line[0];
