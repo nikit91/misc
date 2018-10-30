@@ -9,5 +9,6 @@
 	<classpathentry kind="lib" path="C:/Users/Nikit/Downloads/opencsv-2.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Nikit/Desktop/word2vec.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Nikit/Downloads/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nikit/.m2/repository/org/dice-research/topicmodeling.commons/0.0.3-SNAPSHOT/topicmodeling.commons-0.0.3-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
